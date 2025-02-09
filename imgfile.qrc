@@ -2,5 +2,6 @@
     <qresource prefix="/img">
         <file>img/mcclauncher.ico</file>
         <file>img/headimg.jpg</file>
+        <file>img/bg.jpg</file>
     </qresource>
 </RCC>

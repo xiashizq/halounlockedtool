@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>590</width>
-    <height>158</height>
+    <width>1061</width>
+    <height>534</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,57 +17,10 @@
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="0" column="1">
      <layout class="QGridLayout" name="gridLayout" columnstretch="1,4,2,2">
-      <item row="2" column="0">
-       <widget class="QLabel" name="label_2">
-        <property name="styleSheet">
-         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>操作项</string>
-        </property>
-       </widget>
+      <item row="1" column="1" colspan="2">
+       <widget class="QLineEdit" name="lineEdit"/>
       </item>
-      <item row="0" column="3">
-       <widget class="QPushButton" name="pushButton">
-        <property name="styleSheet">
-         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>选择目录</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="label">
-        <property name="styleSheet">
-         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>游戏目录</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="1">
-       <widget class="QPushButton" name="pushButton_3">
-        <property name="styleSheet">
-         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>备份文件</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="3">
-       <widget class="QPushButton" name="pushButton_2">
-        <property name="styleSheet">
-         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>解锁</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="2">
+      <item row="3" column="2">
        <widget class="QPushButton" name="pushButton_4">
         <property name="styleSheet">
          <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
@@ -77,10 +30,67 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit"/>
+      <item row="3" column="3">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="styleSheet">
+         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>解锁</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="pushButton">
+        <property name="styleSheet">
+         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>选择目录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>备份文件</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>游戏目录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">font: 9pt &quot;Microsoft YaHei UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>操作项</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="4">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
       </item>
      </layout>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTableView" name="tableView"/>
     </item>
    </layout>
   </widget>
